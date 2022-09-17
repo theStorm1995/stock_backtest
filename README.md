@@ -1,0 +1,33 @@
+# CPSC362<br>
+<b> CLIENT FOLDERS DOCUMENTATIONS </b>
+client<br>
+--<b>src</b><br>
+----<b>API</b> (this is the API calls using axios)<br>
+------<b>index.js</b> (fetch data from yahoo finance and user authenticate backend<br>
+------<b>news.js</b> (fetch news data from bb finance) <br> 
+----<b>actions</b> (import api from API folder and return the data with specifics functions)<br>
+------<b>news.js</b> (call api and return the data for news)<br>
+------<b>object.js</b> (functions that call api from yahoo finance or from our back end mongodb for user authenticate) <br>
+----<b>Component</b> (React components to render on pages like Navbar, StockInfos...)<br>
+------<b>Backtesting</b><br>
+--------<b>BackTestingCalculation.js</b> (functions that calculate backtesting)<br>
+--------<b>BackTesingGraph.js</b> (graph some backtesting data)<br>
+--------<b>BackTestingInfo.js</b> (Display back testing data)<br>
+------<b>Graph</b><br>
+--------<b>Graph.js</b> (Collect data for the graph)<br>
+--------<b>CreateChart</b> (Use the data from Graph.js to render a chart UI)<br>
+------<b>Navbar</b><br>
+--------<b>Navbar.js</b> (Render Navbar)<br>
+--------<b>style.js</b> (styling the navbar)<br>
+------<b>News</b><br>
+--------<b>New.js</b> (display market news on the screen)<br>
+------<b>StockInfo</b><br>
+--------<b>Stockinfo.js</b> (display the open, bid, market price... of a stock)
+----<b>pages</b> (pages to redirect to)<br>
+------<b>Home.js</b> (main home page)<br>
+------<b>Login.js</b> (Login page)<br>
+------<b>StockDetails.js</b> (/quote/:id, display a stock details with graph)<br>
+------<b>styles.js</b> (styling)<br>
+----<b>App.js</b> (the main component to route to different pages)<br>
+----<b>index.js</b> (this is the main class of React)<br>
+----<b>style.js</b> (css in javascript to style the main component)
